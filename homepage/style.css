@@ -1,0 +1,99 @@
+.nav-link{
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+.d-inline-flex{
+    color: black;
+    font-weight: bold;
+    font-family: "Lancelot", serif;
+    font-size: x-large;
+}
+.top-grid{
+    display: grid;
+    grid-template-rows: 60vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content{
+    margin-top: -25px;
+    margin-left: 35px;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.main-bar{
+display: flex;
+justify-content: center;
+height: 100%;
+align-items: center;
+margin-left: 100px;
+}
+
+.big-title{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Lancelot", serif;
+}
+
+.domains{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.end{
+    background-color:whitesmoke ;
+    color: black;
+}
+.info{
+    margin-top: 0;
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+    margin: 30px;
+}
+.bar{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.search-bar{
+    height: 60px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    border: 7px solid white;
+    border-radius: 5px;
+    margin-top: -15px;
+    font-weight: bold;
+    opacity: 100%;
+}
+.about{
+    display: block;
+    justify-content:center;
+    height: 55vh;
+    
+    background-color:rgba(0,0,0,0.5);
+    border-radius: 10%;
+    margin-top: 30px;
+    margin-right: 30px;
+   
+    
+
+}
+main {
+    background-image: url('mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensures main takes at least the full viewport height */
+  }
